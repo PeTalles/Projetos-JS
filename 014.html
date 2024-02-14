@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    </style>
+</head>
+<body>
+    <header><h1>Verificador de idade</h1></header>
+    <section>
+        <div>
+            <p>Ano de nascimento:
+            <input type="number" name="txtano" id="txtano" min="0"></p>
+            <p>
+                Sexo: <input type="radio" name="rsex" id="masc">
+                <label for="mas">Masculino</label>
+                <input type="radio" name="rsex" id="fem" >
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+                
+            </p>
+
+        </div>
+        <div id="res">
+            Preencha para obter os resultados
+            <img id="imagem" src="" alt="">
+
+        </div>
+    </section>
+    <footer>
+        <p>Pedro Talles</p>
+    </footer>
+    <script src="scrip.js"></script>
+</body>
+</html>
